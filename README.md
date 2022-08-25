@@ -25,8 +25,11 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
+Desktop  
+![Design preview for the desktop Product preview card component coding challenge](./design/desktop-solution.jpg)
 
-![Design preview for the desktop Product preview card component coding challenge](./design/desktop-solution.jpg)|![Design preview for the desktop Product preview card component coding challenge](./design/mobile-solution.jpg)
+Mobile  
+![Design preview for the desktop Product preview card component coding challenge](./design/mobile-solution.jpg)
 
 ### Links
 
