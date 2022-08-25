@@ -14,18 +14,17 @@
   <title>Frontend Mentor | Product preview card component</title>
 </head>
 <body>
-  <div class="production-preview-card">
+  <main role="main" class="production-preview-card">
     <picture>
       <source srcset="./images/image-product-mobile.jpg" media="(max-width: 768px)">
       <img class="production-preview-card__product-image"
-          srcset="./images/image-product-desktop.jpg"
+          src="./images/image-product-desktop.jpg"
           alt="Gabrielle Essence Eau De Parfum"
-          decoding="async"
-          loading="lazy">
+          decoding="async">
     </picture>
     <div class="production-preview-card__content">
       <span class="production-preview-card__category">Parfume</span>
-      <h3 class="production-preview-card__product-title">Gabrielle Essence Eau De Parfum</h3>
+      <h1 class="production-preview-card__product-title">Gabrielle Essence Eau De Parfum</h1>
       <span class="production-preview-card__product-description">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
         Perfumer-Creator for the House of CHANEL.</span>
       <div class="production-preview-card__price">
@@ -46,11 +45,11 @@
         Add to Cart
       </button>
     </div>
-  </div>
+  </main>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a><br> 
     Coded by <a href="https://github.com/klievanskyi" target="_blank">Mykola Klievanskyi</a> with 💖
-  </div>
+  </footer>
 </body>
 </html>
