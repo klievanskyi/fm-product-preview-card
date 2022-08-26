@@ -162,6 +162,23 @@ body {
   }
 }
 
+// A11y solution for descript text
+// https://stackoverflow.com/questions/62107074/how-to-hide-a-text-and-make-it-accessible-by-screen-reader/62109988#62109988
+
+.visually-hidden { 
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute !important;
+  height: 1px; 
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 768px){
   .production-preview-card {
     display: flex;
