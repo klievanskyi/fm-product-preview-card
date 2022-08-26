@@ -56,5 +56,5 @@ Regarding questions, I have only one. I added a button with the role and some fo
 ## Author
 
 - Github - [Mykola Klievanskyi](https://github.com/klievanskyi)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/klievanskyi)
+- Frontend Mentor - [Mykola Klievanskyi](https://www.frontendmentor.io/profile/klievanskyi)
 - Twitter - [@klievanskyi](https://twitter.com/klievanskyi)
