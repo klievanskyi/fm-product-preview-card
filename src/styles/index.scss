@@ -166,6 +166,7 @@ body {
   .production-preview-card {
     display: flex;
     flex-direction: column;
+    width: min(100%, 480px);
 
     &__product-image {
       width: 100%;
